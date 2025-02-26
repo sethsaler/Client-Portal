@@ -1,0 +1,39 @@
+{
+  "name": "client-portal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.x",
+    "@prisma/client": "^5.x",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.x",
+    "next": "14.x",
+    "next-auth": "^4.x",
+    "pusher-js": "^8.x",
+    "react": "^18.x",
+    "react-dom": "^18.x",
+    "react-hook-form": "^7.x",
+    "swr": "^2.x",
+    "tailwindcss": "^3.x",
+    "typescript": "^5.x",
+    "zod": "^3.x"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.x",
+    "@types/jsonwebtoken": "^9.x",
+    "@types/node": "^20.x",
+    "@types/react": "^18.x",
+    "@types/react-dom": "^18.x",
+    "autoprefixer": "^10.x",
+    "eslint": "^8.x",
+    "eslint-config-next": "14.x",
+    "postcss": "^8.x",
+    "prisma": "^5.x"
+  }
+}
