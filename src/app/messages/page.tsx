@@ -13,7 +13,7 @@ export default function MessagesPage() {
       id: 1,
       contact: 'Jane Attorney',
       avatar: 'JA',
-      lastMessage: 'I've reviewed the settlement offer and have some thoughts to share.',
+      lastMessage: "I've reviewed the settlement offer and have some thoughts to share.",
       timestamp: '10:45 AM',
       unread: true,
       case: 'Smith v. Corporation',
@@ -21,7 +21,7 @@ export default function MessagesPage() {
         {
           id: 1,
           sender: 'Jane Attorney',
-          content: 'Good morning. I've reviewed the settlement offer from the opposing counsel.',
+          content: "Good morning. I've reviewed the settlement offer from the opposing counsel.",
           timestamp: 'Yesterday, 9:30 AM',
           isUser: false,
         },
@@ -35,7 +35,7 @@ export default function MessagesPage() {
         {
           id: 3,
           sender: 'Jane Attorney',
-          content: 'I've reviewed the settlement offer and have some thoughts to share. The initial amount is lower than we anticipated, but there are some favorable terms regarding future medical expenses.',
+          content: "I've reviewed the settlement offer and have some thoughts to share. The initial amount is lower than we anticipated, but there are some favorable terms regarding future medical expenses.",
           timestamp: 'Today, 10:45 AM',
           isUser: false,
         },
@@ -53,7 +53,7 @@ export default function MessagesPage() {
         {
           id: 1,
           sender: 'John Lawyer',
-          content: 'Hello, I've prepared the initial draft of your will and trust documents.',
+          content: "Hello, I've prepared the initial draft of your will and trust documents.",
           timestamp: 'Feb 20, 2:15 PM',
           isUser: false,
         },
@@ -85,7 +85,7 @@ export default function MessagesPage() {
         {
           id: 1,
           sender: 'Sarah Counsel',
-          content: 'I wanted to let you know that we've received a response from your spouse's attorney regarding the division of assets.',
+          content: "I wanted to let you know that we've received a response from your spouse's attorney regarding the division of assets.",
           timestamp: 'Feb 18, 1:45 PM',
           isUser: false,
         },
@@ -99,7 +99,7 @@ export default function MessagesPage() {
         {
           id: 3,
           sender: 'Sarah Counsel',
-          content: 'They're proposing a buyout option. Also, the court date for the divorce hearing has been set for March 15.',
+          content: "They're proposing a buyout option. Also, the court date for the divorce hearing has been set for March 15.",
           timestamp: 'Feb 20, 9:15 AM',
           isUser: false,
         },
@@ -124,14 +124,14 @@ export default function MessagesPage() {
         {
           id: 2,
           sender: 'You',
-          content: 'That's excellent news. What are the next steps?',
+          content: 'That\'s excellent news. What are the next steps?',
           timestamp: 'Jan 10, 12:45 PM',
           isUser: true,
         },
         {
           id: 3,
           sender: 'Michael Attorney',
-          content: 'We'll need to finalize the paperwork. I'll prepare everything and send it over for your signature.',
+          content: 'We\'ll need to finalize the paperwork. I\'ll prepare everything and send it over for your signature.',
           timestamp: 'Jan 12, 10:20 AM',
           isUser: false,
         },
