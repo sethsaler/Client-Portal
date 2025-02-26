@@ -1,17 +1,31 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Legal Services Client Portal - Securely manage your legal cases and documents">
+    <link rel="icon" href="/favicon.ico" />
     <title>Legal Services Client Portal</title>
+    <link href="/styles/globals.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to the Legal Services Client Portal</h1>
-    <p>Securely access your case information, communicate with attorneys, manage documents, schedule meetings, and receive updates on your legal matters.</p>
-    <a href="/auth/login">Login to Your Account</a> | 
-    <a href="/auth/register">Register New Account</a>
-    <div style="margin-top: 20px; text-align: center;">
-        <a href="/dashboard" style="color: #666; font-size: 14px;">Skip Authentication (Testing Only)</a>
-    </div>
+    <div id="root"></div>
+    <script>
+        // This ensures proper client-side routing with Next.js
+        if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/sw.js').then(
+                    function(registration) {
+                        console.log('Service Worker registration successful');
+                    },
+                    function(err) {
+                        console.log('Service Worker registration failed', err);
+                    }
+                );
+            });
+        }
+    </script>
+    <script type="module" src="/_next/static/chunks/main.js"></script>
 </body>
 </html>
