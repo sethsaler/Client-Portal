@@ -9,20 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.x",
-    "@prisma/client": "^5.x",
+    "@aws-sdk/client-s3": "^3.750.0",
+    "@prisma/client": "^5.22.0",
     "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^9.x",
-    "next": "14.x",
-    "next-auth": "^4.x",
-    "pusher-js": "^8.x",
-    "react": "^18.x",
-    "react-dom": "^18.x",
-    "react-hook-form": "^7.x",
-    "swr": "^2.x",
-    "tailwindcss": "^3.x",
-    "typescript": "^5.x",
-    "zod": "^3.x"
+    "jsonwebtoken": "^9.0.2",
+    "next": "^14.2.24",
+    "next-auth": "^4.24.11",
+    "pusher-js": "^8.4.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.54.2",
+    "swr": "^2.3.2",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.x",
